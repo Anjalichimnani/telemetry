@@ -1,0 +1,40 @@
+body {
+	background: #AFF7B8 !important;
+	margin : 1cm 10cm 0cm 10cm !important;
+}
+
+h1 {
+	color: #610B0B;
+}
+
+p {
+    text-align: justify;
+}
+
+.error {
+	color: red;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+}
+
+.container {
+    padding: 20px 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
